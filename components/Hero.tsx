@@ -1,4 +1,5 @@
 import { Spotlight } from "./ui/spotlight-new"
+import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 
 const Hero = () => {
@@ -28,6 +29,8 @@ const Hero = () => {
               text-blue-100">
                 Dynamic Web Magic with Next.js
             </h2>
+
+            {/* <TextGenerateEffect /> */}
         </div>
       </div>
     </div>
