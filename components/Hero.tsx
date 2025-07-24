@@ -3,7 +3,7 @@ import { Spotlight } from "./ui/spotlight-new"
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 h-screen">
     
       <div>
         <Spotlight />
@@ -19,6 +19,12 @@ const Hero = () => {
           className="absolute pointer-events-none inset-0 flex items-center justify-center dark:bg-black
           bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
         />
+      </div>
+
+      <div className="flex justify-center">
+    <div className="max-w-[89vh]">
+
+    </div>
       </div>
 
      
