@@ -4,7 +4,7 @@ import { TextGenerateEffect } from "./ui/text-generate-effect"
 
 const Hero = () => {
   return (
-    <div className="pb-20 pt-36">
+    <div className="pb-20 pt-36 h-screen">
       <div>
         <Spotlight />
       </div>
@@ -29,6 +29,7 @@ const Hero = () => {
               text-blue-100">
                 Dynamic Web Magic with Next.js
             </h2>
+            <p className="mt-20 tracking-wide uppercase italic">Still working & testing out next.js, be back soon! - Kilom</p>
 
             {/* <TextGenerateEffect /> */}
         </div>
