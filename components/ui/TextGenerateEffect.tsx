@@ -60,4 +60,3 @@ export const TextGenerateEffect = ({
     </div>
   );
 };
-export default TextGenerateEffect;

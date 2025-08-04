@@ -1,5 +1,5 @@
 import { Spotlight } from "./ui/spotlight-new"
-import { TextGenerateEffect } from "./ui/text-generate-effect"
+import { TextGenerateEffect } from "./ui/TextGenerateEffect";
 
 
 const Hero = () => {
@@ -29,9 +29,15 @@ const Hero = () => {
               text-blue-100">
                 Dynamic Web Magic with Next.js
             </h2>
-            <p className="mt-20 tracking-wide uppercase italic">Still working & testing out next.js, be back soon! - Kilom</p>
+            <p className="mt-20 tracking-wide uppercase italic">
+              Still working & testing out next.js, be back soon! - Kilom
+              </p>
 
-            {/* <TextGenerateEffect /> */}
+            <TextGenerateEffect
+            className="text-center text-[40px] md:text-5xl
+            lg:text-6xl"
+            words="Transforming Concepts Into Seamless Experiences" />
+            
         </div>
       </div>
     </div>
